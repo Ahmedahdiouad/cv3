@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+}
+a{
+    color:white;
+    text-decoration: 0;
+}
+body{
+    background-image: linear-gradient(rgb(2, 2, 14),rgb(0, 0, 0));
+    height: 100vh;
+    display:block;
+    
+
+}
+.container0{
+    background-image: 
+    linear-gradient(to right ,#2f2f31cc ,#000000b9),
+    url(cv4.jpeg);
+    width: 100%;
+    height: 700px;
+}
+.container0:hover{
+    background-image: 
+    linear-gradient(to right  ,transparent,#01022d93),
+    url(cv4.jpeg);
+    transition: .5s;
+    
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 0 5% ;
+}
+header ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 3%  3%;
+}
+
+header ul a:hover{
+    background-color: black;
+    border-radius: 6px;
+    
+}
+.active{
+    background-color: black;
+    border-radius: 6px;
+}
+
+
+.container3  { 
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+
+}
+.container3 ul{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+
+
+}
+.container3  li {
+    justify-content: space-between;
+    width: 60%;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 5px 5px;
+    display: block;
+}
+.container3 ul img{
+    width: 40%;
+    height: 80%;
+    border-radius: 50%;
+    margin-left: 25%;
+}
+.container3 ul iframe{
+width: 40%;
+height: 80%;
+border-radius: 50%;
+margin-left: 25%;
+}
+.container3 ul li p{
+    margin-left: 30%;
+}
+.container1 p{
+    width: 50%;
+    margin: 5%;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    border-radius: 10px;
+    font-weight: 600;
+
+}

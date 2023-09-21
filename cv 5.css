@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    margin: 0;
+
+
+}
+a{
+    color:white;
+    text-decoration: 0;
+}
+body{
+    background-image: linear-gradient(rgb(2, 2, 14),rgb(0, 0, 0));
+    height: 100vh;
+    display:block;
+    
+
+}
+.container{
+    background-image: 
+    linear-gradient(to right ,#2f2f31cc ,#000000b9),
+    url(WhatsApp\ Image\ 2023-09-16\ at\ 19.56.59.jpg);
+    width: 100%;
+    height: 1800px;
+}
+.container:hover{
+    background-image: 
+    linear-gradient(to right  ,transparent,#01022d93),
+    url(WhatsApp\ Image\ 2023-09-16\ at\ 19.56.59.jpg);
+    transition: .5s;
+    
+}
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 0 5% ;
+}
+header ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 3%  3%;
+}
+
+header ul a:hover{
+    background-color: black;
+    border-radius: 6px;
+    
+}
+.active{
+    background-color: black;
+    border-radius: 6px;
+}
+
+.container1 ul{
+    display: block; 
+    width: 90%;
+    height:800px;
+    margin: 50px;
+    
+}
+.container1 ul li{
+    display: flex;
+    height: 20%;
+    margin: 50px;
+}
+.container1 ul li:hover{
+    background-color: rgba(49, 48, 47, 0.651);
+    border-radius: 12px;
+    height: 20%;
+}
+.container1 ul li img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: azure;
+}
+.container1 ul li p{
+    color: #ffffff;
+    font-size: medium;
+}
+h3{
+    color: rgb(0, 0, 0);
+}
+.container1 ul li h2{ 
+    color: rgb(47, 38, 168);
+    line-height: 140%;;
+}
+.container1 ul li h2 p{ 
+    line-height: 140%;;
+    margin: 10px 30px;
+}
+.container1 ul li a{ 
+    margin: 30px;
+}
+.container1 ul img:hover{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-position: center;
+    padding: 15px;
+    
+}
